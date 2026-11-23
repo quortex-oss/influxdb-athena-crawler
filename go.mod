@@ -1,8 +1,6 @@
 module github.com/quortex/influxdb-athena-crawler
 
-go 1.22
-
-toolchain go1.22.0
+go 1.26.0
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.30.0
@@ -12,7 +10,7 @@ require (
 	github.com/influxdata/influxdb-client-go/v2 v2.13.0
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/rs/zerolog v1.33.0
-	golang.org/x/sync v0.7.0
+	golang.org/x/sync v0.25.0
 )
 
 require (
